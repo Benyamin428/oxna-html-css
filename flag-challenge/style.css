@@ -1,0 +1,59 @@
+#german-flag {
+    width: 300px;
+    height: 200px;
+}
+
+#german-flag .top {
+    height: 66.6px;
+    background: black;
+}
+
+#german-flag .middle {
+    height: 66.6px;
+    background: red;
+}
+
+#german-flag .bottom {
+    height: 66.6px;
+    background: yellow;
+}
+
+#german-flag:hover .top {
+    background: red;
+}
+
+#german-flag:hover .middle {
+    background: white;
+}
+
+#german-flag:hover .bottom {
+    background: green;
+}
+
+
+#french-flag {
+    width: 300px;
+    height: 200px;
+}
+
+#french-flag .top {
+    display: inline-block;
+    height: 100%;
+    width: 100px;
+    background: blue;
+}
+
+#french-flag .middle {
+    display: inline-block;
+    height: 100%;
+    width: 100px;
+    background: white;
+}
+
+#french-flag .bottom {
+    display: inline-block;
+    height: 100%;
+    width: 100px;
+    background: red;
+}
+
