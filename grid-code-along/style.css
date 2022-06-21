@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #318ae4;
+    height: 3.25rem;
+}
+  
+nav {
+    background-color: #a6bdd1;
+    height: 6.25rem;
+}
+
+main {
+    background-color: #eeeeee;
+    height: 6.25rem;
+}
+
+aside {
+    background-color: #a2be9a;
+    height: 6.25rem;
+}
+
+@media screen and (min-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-rows: 100%;
+    }
+}
