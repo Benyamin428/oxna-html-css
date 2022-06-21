@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-areas: 
+        "header header header header"
+        "aside nav nav nav"
+        "aside main main main"
+        "footer footer footer footer";
+    grid-template-rows: 3rem 5rem 15rem 3rem;
+}
+
+header {
+    grid-area: header;
+    height: 100%;
+    background: black;
+}
+
+nav {
+    grid-area: nav;
+    height: 100%;
+    background: salmon;
+}
+
+aside {
+    grid-area: aside;
+    height: 100%;
+    background: orange;
+}
+
+main {
+    grid-area: main;
+    height: 100%;
+    background: grey;
+}
+
+footer {
+    grid-area: footer;
+    height: 100%;
+    background: black;
+}
