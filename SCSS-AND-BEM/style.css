@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.card {
+  width: 30rem;
+  box-shadow: 2px 2px 5px grey;
+}
+.card .card__image-wrapper .card__image {
+  width: 100%;
+}
+.card .card__caption-wrapper {
+  padding: 5% 10%;
+  font-family: "Roboto", sans-serif;
+}
+.card .card__caption-wrapper .card__caption-heading {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin: 0;
+}
+.card .card__caption-wrapper .card__caption-paragraph {
+  color: grey;
+}
+.card .card__caption-wrapper .card__buttons-wrapper {
+  padding-top: 2%;
+}
+.card .card__caption-wrapper .card__buttons-wrapper .card__button-link .card__button-button {
+  padding: 2.5% 6%;
+  border: 2px solid #000;
+}
+.card .card__caption-wrapper .card__buttons-wrapper .card__button-link .card__button-button--book {
+  background: black;
+  color: #fff;
+}
+.card .card__caption-wrapper .card__buttons-wrapper .card__button-link .card__button-button--info {
+  border: 2px solid #000;
+  background: #fff;
+}
+.card .card__caption-wrapper .card__buttons-wrapper .card__button-link .card__button-button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
